@@ -17,3 +17,6 @@ Open your browser and navigate to `http://localhost` or `http:/127.0.0.1`
 
 * Live website
 [Here](https://sh4reef.github.io/fend-mp)
+
+#### PageSpeed score
+[Here] (https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fsh4reef.github.io%2Ffend-mp&tab=mobile)
