@@ -4,7 +4,7 @@ Cameron Pittman's portfolio website has been optimized
 
 #### How to start
 * Serve on localhost
-If you're familiar with python run these commands on your terminal or cmd
+If you're familiar with python run these commands on your terminal
 
 ```
 git clone https://github.com/Sh4reef/fend-mp.git
