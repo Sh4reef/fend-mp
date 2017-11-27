@@ -421,7 +421,7 @@ var resizePizzas = function(size) {
 
   changeSliderLabel(size);
 
-  /* -------------------------------------------------------------------- */
+  // -------------------------------------------------------------------- //
 
   // This function is no longer needed
 
@@ -453,13 +453,13 @@ var resizePizzas = function(size) {
 
   // Iterates through pizza elements on the page and changes their widths
 
-  /* ---------------------------------------------------------------------- */
+  // ---------------------------------------------------------------------- //
   
   function changePizzaSizes(size) {
     // Declare variable to set it's value within if statement below
     var newWidth;
     // Set newWidth value depends on size parameter using if ternary operator
-    size === '1' ? newWidth = 25 : size === '2' ? newWidth = 33 : size === '3' ? newWidth = 50 : console.log('Something wrong with sizeSwitcher.')
+    size === '1' ? newWidth = 25 : size === '2' ? newWidth = 33 : size === '3' ? newWidth = 50 : console.log('Something wrong with sizeSwitcher.');
     // Select all .randomPizzaContainer juse once.
     var querySelectorAll = document.querySelectorAll('.randomPizzaContainer');
     // Loop through all the selected objects
@@ -521,8 +521,8 @@ function updatePositions() {
   // Declare phases array once 
   var phases = [];
   // Loop and push phases 
-  for (var i = 0; i < 5; i++) {
-    phases.push(Math.sin((scrollTop / 1250) + (i % 5)));
+  for (var p = 0; p < 5; p++) {
+    phases.push(Math.sin((scrollTop / 1250) + (p % 5)));
   }
 
   for (var i = 0; i < items.length; i++) {
