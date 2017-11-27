@@ -451,8 +451,8 @@ var resizePizzas = function(size) {
   
   function changePizzaSizes(size) {
     var newWidth;
-    size === "1" ? newWidth = 25 : size === "2" ? newWidth = 33 : size === "3" ? newWidth = 50 : console.log('Something wrong with sizeSwitcher.')
-    var querySelectorAll = document.querySelectorAll(".randomPizzaContainer");
+    size === '1' ? newWidth = 25 : size === '2' ? newWidth = 33 : size === '3' ? newWidth = 50 : console.log('Something wrong with sizeSwitcher.')
+    var querySelectorAll = document.querySelectorAll('.randomPizzaContainer');
     for (var i = 0; i < querySelectorAll.length; i++) {
       querySelectorAll[i].style.width = `${newWidth}%`;
     }
