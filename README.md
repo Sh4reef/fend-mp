@@ -22,7 +22,10 @@ Open your browser and navigate to `http://localhost` or `http:/127.0.0.1`
 
 #### Implemented optimizations
 * `index.html`
-- External link to `style.css` has been removed, Implemented internal `<style>` instead 
-- Added `rel="dns-prefetch"` attribute `<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="dns-prefetch">`
-- Added `media="print"` attribute `<link href="css/print.css" rel="stylesheet" media="print">`
-- Added `async` attribute `<script async src="https://www.google-analytics.com/analytics.js"></script>` 
+- External link to `style.css` has been removed, Implemented internal `<style>` instead.
+- Added `rel="dns-prefetch"` attribute `<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="dns-prefetch">`.
+- Added `media="print"` attribute `<link href="css/print.css" rel="stylesheet" media="print">`.
+- Added `async` attribute `<script async src="https://www.google-analytics.com/analytics.js"></script>` .
+* `main.js`
+- Removed `determineDx()` function.
+- Refactored `changePizzaSizes()` and `updatePosition()` functions.
