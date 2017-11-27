@@ -31,3 +31,11 @@ Open your browser and navigate to `http://localhost` or `http:/127.0.0.1`
 `main.js`
 - Removed `determineDx()` function.
 - Refactored `changePizzaSizes()` and `updatePosition()` functions.
+- Refactored DOM elements calls, And use `getElementById()`, `getElementByClassName()`.
+- Moved some variable declaration outside the loop.
+
+`pizza.html`
+- Fixed the image.
+
+`style.css` for `pizza.html`
+- Added `backface-visibility: hidden;` property with `hidden` value.
