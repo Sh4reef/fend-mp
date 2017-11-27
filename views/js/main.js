@@ -463,7 +463,7 @@ var resizePizzas = function(size) {
     // Set newWidth value depends on size parameter using if ternary operator
     size === '1' ? newWidth = 25 : size === '2' ? newWidth = 33 : size === '3' ? newWidth = 50 : console.log('Something wrong with sizeSwitcher.');
     // Select all DOM elements by class name randomPizzaContainer 
-    var querySelectorAll = document.getElementByClassName('randomPizzaContainer');
+    var querySelectorAll = document.getElementsByClassName('randomPizzaContainer');
     // Loop through all the selected objects, And declare len variable as an end value of the loop just once
     for (var i = 0, len = querySelectorAll.length; i < len; i++) {
       querySelectorAll[i].style.width = `${newWidth}%`;
